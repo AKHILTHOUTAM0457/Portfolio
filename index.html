@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal-Porfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/992947c109.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+    <div class="container">
+        <nav>
+            <span>
+                <img src="images/Sai..png" class="logo">
+                <p class="data">Data Analyst</p>
+            </span>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <h1 class="text">Hi, I'm <span>sai krishna </span></h1>
+        </div>
+    </div>
+    </div>
+    <!-------about------------------------------------------------------------------------------------>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/usersai.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <P>Aspires to pursue challenging projects in various paradigms of data science and software development, to 
+                    improve better analytical desicion making and solve probelms of the real life</P>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Power BI</span><br>Analyzing Amazon Prime</li>
+                            <li><span>Power BI</span><br>Sports Analytics</li>
+                            <li><span>Data visualization</span><br>Netflix</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Mar 2022-Dec 2022 Technical Team Member</span><br>Open  Source Community:VIT-AP part time</li>
+                            <li><span>jul 2021-Feb2022 Lead</span><br>CSI VITAP CHAPTER</li>
+                            <li><span>jul 2020-Aug 2020 Virtual Student intern</span><br>JPMorgan Chase & Co.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020-24</span><br>Vellore Institute of Technology AP</li>
+                            <li><span>2018-20</span><br>Sri Chaitanya Junior College-Hyderabad</li>
+                            <li><span>2018</span><br>Sri Chaitanya High School</li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-----portfolio----------------------------------------------------------------------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/prime(1)(1).jpg">
+                <div class="layer">
+                    <h3>Amazon Prime Video data</h3>
+                    <p>Analyzing Amazon Prime Video data from 1920-2021, showcasing total shows by country, number of movies and TV shows, movies by release year, and ratings distribution.</p>
+                    <a href="https://app.powerbi.com/groups/me/reports/27a9bb42-4d1e-4da0-ba5e-8e45de1432a0/ReportSection6bf6e4910e46001a2339?experience=power-b" class="ama" >check it out</a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/asalsport.jpg">
+                <div class="layer">
+                    <h3>Best Playing 11 from 2022 T20 World Cup</h3>
+                    <p>Analyzing the T20 World Cup 2022! Dive into the stats, player performances, and match insights with my latest Power BI data visualization. Who were the top performers and game-changers? Let’s break it down!</p>
+                    <a href="https://app.powerbi.com/groups/me/reports/27a9bb42-4d1e-4da0-ba5e-8e45de1432a0/ReportSection6bf6e4910e46001a2339?experience=power-b" class="net" >check it out</a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/InShot_20240909_202219987-01.jpeg(1)(1).jpg">
+                <div class="layer">
+                    <h3>Netflix Data</h3>
+                    <p>Exploring Netflix data from 1925-2021 with a beautiful dashboard featuring total shows by country, movies & TV shows count, release year trends, and ratings distribution.</p>
+                    <a href="https://app.powerbi.com/groups/me/reports/27a9bb42-4d1e-4da0-ba5e-8e45de1432a0/ReportSection6bf6e4910e46001a2339?experience=power-b" class="spot" >check it out</a>
+                </div>
+            </div>
+           
+        </div>
+
+    </div>
+</div>
+<!-------------------contact---------------------------------------------------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i>
+                vuppulasaikrishna10@gmail.com
+                </p>
+                <p><i class="fas fa-phone-square-alt"></i>7995478304</p>
+                <div class="social-icons">
+                    <a href="https://github.com/vuppulasaikrishna"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/mrdataanalystt?igsh=MXhjdHRsOW0wdHN3Yw=="><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/saikrishna-vuppula-384812246?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="images/Resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+         event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
